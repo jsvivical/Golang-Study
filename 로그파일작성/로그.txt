@@ -1,0 +1,13 @@
+(유닉스 머신이라고 가정)
+log 패키지는 로그 메시지를 머신의 시스템로그 서비스로 보내줌.
+이 패키지의 syslog패키지는 go 프로그램에 적용할 로그 수준과 로그 종류를 지정할 수 있다.
+
+로그수준
+로그수준이란 로그 항목의 심각한 정도를 나타내는 값이다.
+로그 수준으로 지정할 수 있는 값은 다양한데 심각한 정도를 오름차순으로 나열하면
+debug, info, notice, warning, err, crit, alert, emerg 등이 있다.
+
+로그 종류 
+로그 종류란 로그 정보의 범주를 의미한다.
+로그 종류 값으로 
+auth, authpriv cron, daemon, kern, lpr, news, syslog, user, UUCP, local0, local1, local2, local3, ... , local7 등이 있다.
