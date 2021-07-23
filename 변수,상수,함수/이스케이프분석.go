@@ -21,8 +21,8 @@ func escapeToHeap() *user {
 		name:  "Hoanh An",
 		email: "hoanhan101@gmail.com",
 	}
-	//escapeToHeap에서는 변수가 함수 바깥으로 나온다. 
-	
+	//escapeToHeap에서는 변수가 함수 바깥으로 나온다.
+
 	return &u
 }
 
