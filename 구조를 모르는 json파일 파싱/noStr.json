@@ -1,0 +1,14 @@
+{
+    "name":"John",
+    "surname":"Doe",
+    "age":25,
+    "parents":[
+        "Jim",
+        "Mary"
+    ],
+    "tel":[
+        {"mobile":true,"number":"1234-567"},
+        {"mobile":true,"number":"1234-abcd"},
+        {"mobile":false,"number":"abcc-567"}
+    ]
+}
